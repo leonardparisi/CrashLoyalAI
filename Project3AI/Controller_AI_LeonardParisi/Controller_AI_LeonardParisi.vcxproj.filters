@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClInclude Include="src\Controller_AI_LeonardParisi.h" />
+    <ClInclude Include="src\iBehaviorTree.h">
+      <Filter>BehaviorTree\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="src\iNode.h">
+      <Filter>BehaviorTree\Structure</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SequenceNode.h">
+      <Filter>BehaviorTree\Nodes\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SelectorNode.h">
+      <Filter>BehaviorTree\Nodes\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ElixirConditionNode.h">
+      <Filter>BehaviorTree\Nodes\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\NumericConditionNode.h">
+      <Filter>BehaviorTree\Nodes\Condition</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DeployMobNode.h">
+      <Filter>BehaviorTree\Nodes\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EnemiesExistConditionNode.h">
+      <Filter>BehaviorTree\Nodes\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EmptyNode.h">
+      <Filter>BehaviorTree\Nodes\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\RandomWeightedSelectorNode.h">
+      <Filter>BehaviorTree\Nodes\Util</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DeployReinforcementMobNode.h">
+      <Filter>BehaviorTree\Nodes\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="src\DefensiveBehaviorTree.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Controller_AI_LeonardParisi.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="BehaviorTree">
+      <UniqueIdentifier>{f460e2e9-2488-48e0-918d-020f0fa649ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BehaviorTree\Structure">
+      <UniqueIdentifier>{3abf2857-c0e8-4a76-8bf2-bf96a18084af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BehaviorTree\Nodes">
+      <UniqueIdentifier>{2b5dc039-7b53-4776-b88b-ade21ff79c7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BehaviorTree\Nodes\Util">
+      <UniqueIdentifier>{2e3f0e58-6e4f-441b-b1d9-5369cfdfd7c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BehaviorTree\Nodes\Condition">
+      <UniqueIdentifier>{184aed3c-1dc9-48e8-9827-d29dee7f2590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BehaviorTree\Nodes\Game">
+      <UniqueIdentifier>{2c26dba7-9cf5-4626-8dc1-572912e7e8e8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
